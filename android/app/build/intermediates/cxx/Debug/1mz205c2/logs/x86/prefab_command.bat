@@ -1,0 +1,25 @@
+@echo off
+"C:\\Users\\Gregor\\.jdks\\ms-17.0.20.1\\bin\\java" ^
+  --class-path ^
+  "C:\\Users\\Gregor\\.gradle\\caches\\modules-2\\files-2.1\\com.google.prefab\\cli\\2.1.0\\aa32fec809c44fa531f01dcfb739b5b3304d3050\\cli-2.1.0-all.jar" ^
+  com.google.prefab.cli.AppKt ^
+  --build-system ^
+  cmake ^
+  --platform ^
+  android ^
+  --abi ^
+  x86 ^
+  --os-version ^
+  29 ^
+  --stl ^
+  c++_shared ^
+  --ndk-version ^
+  27 ^
+  --output ^
+  "C:\\Users\\Gregor\\AppData\\Local\\Temp\\agp-prefab-staging12305057337735916813\\staged-cli-output" ^
+  "C:\\Users\\Gregor\\Mendix\\FMSystem-main\\GGMobileApp\\android\\app\\build\\intermediates\\cxx\\refs\\op-engineering_op-sqlite\\y3o16v59" ^
+  "C:\\Users\\Gregor\\Mendix\\FMSystem-main\\GGMobileApp\\android\\app\\build\\intermediates\\cxx\\refs\\react-native-reanimated\\596r3x2r" ^
+  "C:\\Users\\Gregor\\Mendix\\FMSystem-main\\GGMobileApp\\android\\app\\build\\intermediates\\cxx\\refs\\react-native-worklets\\2s1wb47z" ^
+  "C:\\Users\\Gregor\\.gradle\\caches\\9.0.0\\transforms\\6f047fe95515263c33efb68548b012ad\\transformed\\jetified-react-android-0.84.1-debug\\prefab" ^
+  "C:\\Users\\Gregor\\.gradle\\caches\\9.0.0\\transforms\\6151a2499998fddc838bb52b1075fee9\\transformed\\jetified-hermes-android-0.15.1-debug\\prefab" ^
+  "C:\\Users\\Gregor\\.gradle\\caches\\9.0.0\\transforms\\d1f5d56d0f5ad40f287ae4ecda6d09db\\transformed\\jetified-fbjni-0.7.0\\prefab"

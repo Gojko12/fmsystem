@@ -1,0 +1,24 @@
+@echo off
+"C:\\Users\\Gregor\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\cmake.exe" ^
+  "-HC:\\Users\\Gregor\\Mendix\\FMSystem-main\\GGMobileApp\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup" ^
+  "-DCMAKE_SYSTEM_NAME=Android" ^
+  "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON" ^
+  "-DCMAKE_SYSTEM_VERSION=29" ^
+  "-DANDROID_PLATFORM=android-29" ^
+  "-DANDROID_ABI=x86" ^
+  "-DCMAKE_ANDROID_ARCH_ABI=x86" ^
+  "-DANDROID_NDK=C:\\Users\\Gregor\\AppData\\Local\\Android\\Sdk\\ndk\\27.3.13750724" ^
+  "-DCMAKE_ANDROID_NDK=C:\\Users\\Gregor\\AppData\\Local\\Android\\Sdk\\ndk\\27.3.13750724" ^
+  "-DCMAKE_TOOLCHAIN_FILE=C:\\Users\\Gregor\\AppData\\Local\\Android\\Sdk\\ndk\\27.3.13750724\\build\\cmake\\android.toolchain.cmake" ^
+  "-DCMAKE_MAKE_PROGRAM=C:\\Users\\Gregor\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+  "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\\Users\\Gregor\\Mendix\\FMSystem-main\\GGMobileApp\\android\\app\\build\\intermediates\\cxx\\Debug\\1mz205c2\\obj\\x86" ^
+  "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=C:\\Users\\Gregor\\Mendix\\FMSystem-main\\GGMobileApp\\android\\app\\build\\intermediates\\cxx\\Debug\\1mz205c2\\obj\\x86" ^
+  "-DCMAKE_BUILD_TYPE=Debug" ^
+  "-DCMAKE_FIND_ROOT_PATH=C:\\Users\\Gregor\\Mendix\\FMSystem-main\\GGMobileApp\\android\\app\\.cxx\\Debug\\1mz205c2\\prefab\\x86\\prefab" ^
+  "-BC:\\Users\\Gregor\\Mendix\\FMSystem-main\\GGMobileApp\\android\\app\\.cxx\\Debug\\1mz205c2\\x86" ^
+  -GNinja ^
+  "-DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES=ON" ^
+  "-DPROJECT_BUILD_DIR=C:\\Users\\Gregor\\Mendix\\FMSystem-main\\GGMobileApp\\android\\app\\build" ^
+  "-DPROJECT_ROOT_DIR=C:\\Users\\Gregor\\Mendix\\FMSystem-main\\GGMobileApp\\android" ^
+  "-DREACT_ANDROID_DIR=C:\\Users\\Gregor\\Mendix\\FMSystem-main\\GGMobileApp\\node_modules\\react-native\\ReactAndroid" ^
+  "-DANDROID_STL=c++_shared"
